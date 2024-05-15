@@ -14,7 +14,6 @@ app.use(cors({ origin: "http://localhost:3000" }));
 
 app.use(universityRoutes)
 
-
 connection
 .then(() => {
     app.listen(port, () => {
